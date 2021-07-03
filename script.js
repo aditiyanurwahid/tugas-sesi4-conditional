@@ -1,17 +1,17 @@
 // Jawaban nomor 1
 
-let jabatan = "CEO";
+let jabatan = prompt("silahkan masukkan divisi :\n (contoh: CEO, CTO, HR, PROGRAMMER) \n \n *Penulisan sesuaikan dengan contoh");
 
 if (jabatan == "CEO") {
-  console.log("jika saya sebagai CEO, maka tugas saya adalah memimpin perusahaan");
+  alert("Jika saya sebagai CEO, maka tugas saya adalah memimpin perusahaan");
 } else if (jabatan == "CTO") {
-  console.log("jika saya sebagai CTO, maka tugas saya adalah mengembangkan produk perusahaan");
+  alert("Jika saya sebagai CTO, maka tugas saya adalah mengembangkan produk perusahaan");
 } else if (jabatan == "HR") {
-  console.log("jika saya sebagai HR, maka tugas saya adalah melakukan rekrutmen calon pegawai baru");
+  alert("Jika saya sebagai HR, maka tugas saya adalah melakukan rekrutmen calon pegawai baru");
 } else if (jabatan == "PROGRAMMER") {
-  console.log("jika saya sebagai PROGRAMMER, maka tugas saya adalah membuat program untuk memecahkan masalah");
+  alert("Jika saya sebagai PROGRAMMER, maka tugas saya adalah membuat program untuk memecahkan masalah");
 } else {
-  console.log("saya tidak memiliki tugas");
+  alert("Input penulisan yang anda masukkan salah");
 }
 
 // jawaban nomor 2
@@ -23,8 +23,9 @@ if (nilaiA > nilaiB) {
   console.log("nilai A lebih besar dari nilai B");
 } else if (nilaiA < nilaiB) {
   console.log("nilai A lebih kecil dari nilai B");
-} else if (nilaiA == nilaiB) {
+} else if ((nilaiA = nilaiB)) {
   console.log("nilai A sama dengan nilai B");
+} else {
 }
 
 // Jawaban nomor 3
@@ -59,21 +60,21 @@ switch (angka) {
 
 // Jawaban nomor 4
 
-let arah = prompt(" silahkan memilih arah : \n (contoh: atas, bawah, kanan, kiri)");
+let arah = prompt(" silahkan memilih arah : \n (contoh: Atas, Bawah, Kanan, Kiri \n \n *Penulisan sesuaikan dengan contoh)");
 
 switch (arah) {
-  case "atas":
-    alert("anda menuju ke Atas");
+  case "Atas":
+    alert("Anda menuju ke Atas");
     break;
-  case "bawah":
-    alert("anda menuju ke Bawah");
+  case "Bawah":
+    alert("Anda menuju ke Bawah");
     break;
-  case "kanan":
-    alert("anda menuju ke Kanan");
+  case "Kanan":
+    alert("Anda menuju ke Kanan");
     break;
-  case "kiri":
-    alert("anda menuju ke Kiri");
+  case "Kiri":
+    alert("Anda menuju ke Kiri");
     break;
   default:
-    alert("arah yang anda masukkan salah");
+    alert("Input penulisan yang anda masukkan salah");
 }
