@@ -11,7 +11,7 @@ if (jabatan == "CEO") {
 } else if (jabatan == "PROGRAMMER") {
   alert("Jika saya sebagai PROGRAMMER, maka tugas saya adalah membuat program untuk memecahkan masalah");
 } else {
-  alert("Input penulisan yang anda masukkan salah");
+  alert("Input yang anda masukkan salah");
 }
 
 // jawaban nomor 2
@@ -76,5 +76,5 @@ switch (arah) {
     alert("Anda menuju ke Kiri");
     break;
   default:
-    alert("Input penulisan yang anda masukkan salah");
+    alert("Input yang anda masukkan salah");
 }
