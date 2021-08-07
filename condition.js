@@ -23,7 +23,7 @@ if (nilaiA > nilaiB) {
   console.log("nilai A lebih besar dari nilai B");
 } else if (nilaiA < nilaiB) {
   console.log("nilai A lebih kecil dari nilai B");
-} else if ((nilaiA = nilaiB)) {
+} else if (nilaiA == nilaiB) {
   console.log("nilai A sama dengan nilai B");
 } else {
 }
